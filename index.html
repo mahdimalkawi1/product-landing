@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a792a400e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <i class="fa-solid fa-guitar"></i>
+        <h1>Create Your Own Sound</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Info</a></li>
+                <li><a href="#section2">How to Learn</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            The guitar is a popular musical instrument that has been around for centuries. It is a stringed instrument
+            that is played by plucking or strumming the strings with the fingers or a pick.
+
+            There are many types of guitars, including acoustic, electric, classical, and flamenco guitars, among
+            others. Acoustic guitars produce sound through the vibration of their strings, which resonates through the
+            guitar's body, while electric guitars use electronic pickups to convert string vibrations into an electrical
+            signal that is amplified through an amplifier.
+
+            The guitar has a long history, dating back to ancient times, and has been used in a wide variety of musical
+            genres, including rock, pop, blues, jazz, and classical music, among others. It is a versatile instrument
+            that can be used for solo performances or as part of a band or ensemble.
+        </section>
+        <section id="section2">
+            Learning to play the guitar can be a rewarding and enjoyable experience. There are many resources available
+            for beginners, including instructional books, videos, and online tutorials. With practice and dedication,
+            anyone can learn to play the guitar and enjoy the many benefits that come with playing music.<br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZulHB_cW5IA" frameborder="0"
+                allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company Name. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
